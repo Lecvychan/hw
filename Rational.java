@@ -131,7 +131,7 @@ public class Rational {
 
     //compareTo ==========================================
     public double compareTo (Rational x) {
-	return (int)this.floatValue() - (int)x.floatValue();
+	return (int)(this.floatValue() - x.floatValue());
     }
     
 
