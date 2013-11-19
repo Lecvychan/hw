@@ -55,8 +55,10 @@ public class Rational {
 
     //Divide ===============================================================
     public void divide (Rational one ) {
+    	if (numerator != 0){
 	numerator = numerator / one.getNum();
 	denominator /= one.getDom();
+    }
     }
 
     //Add =================================================================
