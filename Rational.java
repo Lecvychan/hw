@@ -130,8 +130,15 @@ public class Rational {
     }
 
     //compareTo ==========================================
-    public double compareTo (Rational x) {
-	return (int)(this.floatValue() - x.floatValue());
+    public int compareTo (Rational x) {
+	double answer =(this.floatValue() - x.floatValue());
+	if (answer > 0)
+	answer = 1;
+	if (answer < 0)
+	answer = -1;
+	if (answer == 0)
+	answer = 0;
+	return a;
     }
     
 
