@@ -1,5 +1,5 @@
 //Lecvy Chan
-//9844
+//
 //2013.11.18
 //Hw 27: Stop being Irrational
 
